@@ -1,0 +1,35 @@
+{
+  "786|00unidentified>@react-native-community/cli>metro>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  },
+  "786|00unidentified>@react-native-community/cli>metro-config>metro>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  },
+  "786|00unidentified>@react-native-community/cli>metro>metro-cache>metro-core>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  },
+  "786|00unidentified>@react-native-community/cli>metro-config>metro>metro-cache>metro-core>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  },
+  "786|00unidentified>@react-native-community/cli>metro>metro-config>metro-cache>metro-core>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  },
+  "786|00unidentified>@react-native-community/cli>metro-config>metro-cache>metro-core>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  },
+  "786|00unidentified>@react-native-community/cli>metro>metro-config>metro-core>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  },
+  "786|00unidentified>@react-native-community/cli>metro-config>metro-core>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  },
+  "786|00unidentified>@react-native-community/cli>metro>metro-core>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  },
+  "786|00unidentified>@react-native-community/cli>metro-config>metro>metro-core>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  },
+  "786|00unidentified>@react-native-community/cli>metro-core>jest-haste-map>micromatch>braces": {
+    "ignore": 1
+  }
+}
