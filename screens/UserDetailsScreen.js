@@ -5,7 +5,15 @@ import { View, List, ListItem, Thumbnail, Text, Button, Content } from 'native-b
 export default class UserDetailsScreen extends React.Component {
 
   static navigationOptions = {
-    title: 'User Details'
+    // title: 'User Details'
+    headerTitle: 'User Details',
+    headerRight: (
+      <Button
+        onPress={() => alert('This is a button!')}
+        title="Info"
+        color="#fff"
+      />
+    )
   }
 
   render() {
