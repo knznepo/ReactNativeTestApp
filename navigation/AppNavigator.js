@@ -17,6 +17,20 @@ const MainStack = createStackNavigator({
   UserDetails: {
     screen: UserDetailsScreen
   }
-});
+},
+  {
+    initialRouteName: 'Home',
+    /* add style on header */
+    defaultNavigationOptions: {
+      headerStyle: {
+        backgroundColor: '#6b52ae',
+      },
+      headerTintColor: '#fff',
+      headerTitleStyle: {
+        fontWeight: 'bold'
+      }
+    }
+  }
+);
 
 export default createAppContainer(MainStack);
