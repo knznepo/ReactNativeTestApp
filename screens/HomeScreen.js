@@ -32,12 +32,40 @@ export default class HomeScreen extends React.Component {
           <Icon name='person'></Icon>
         </Button>
 
+        {/* Sample FullScreen Modal */}
+        <Button
+          onPress={ () => this.props.navigation.navigate('MyModal') }
+          style={styles.myButton} warning>
+          <Text>FullScreen Modal</Text>
+          <Icon name='paw'></Icon>
+        </Button>
       </Container>
     );
   }
 }
 
-{/* Sample CSS */}
+
+/*
+ * fullscreen modal
+ */
+export class ModalScreen extends React.Component {
+  render() {
+    return (
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+        <Text style={{ fontSize: 30 }}>This is a modal!</Text>
+        <Button
+          onPress={() => this.props.navigation.goBack()}
+        >
+          <Text>Dismiss</Text>
+        </Button>
+      </View>
+    )
+  }
+}
+
+/*
+ * Sample CSS
+ */
 const styles = StyleSheet.create({
 
   myButton: {
