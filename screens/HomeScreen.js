@@ -39,6 +39,13 @@ export default class HomeScreen extends React.Component {
           <Text>FullScreen Modal</Text>
           <Icon name='paw'></Icon>
         </Button>
+
+        {/* Ssample TabBased navigation */}
+        <Button
+          onPress={ () => this.props.navigation.navigate('MyTabs') }
+          style={styles.myButton} success borderd>
+          <Text>TabBased</Text>
+        </Button>
       </Container>
     );
   }

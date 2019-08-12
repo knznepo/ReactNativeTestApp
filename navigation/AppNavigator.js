@@ -6,6 +6,7 @@ import { Button, Text, Title, Label } from 'native-base';
 import HomeScreen, { ModalScreen } from '../screens/HomeScreen.js';
 import UsersScreen from '../screens/UsersScreen.js';
 import UserDetailsScreen from '../screens/UserDetailsScreen.js';
+import MyTabsScreen from '../screens/MyTabsScreen.js';
 
 const MainStack = createStackNavigator({
   Home: {
@@ -16,6 +17,9 @@ const MainStack = createStackNavigator({
   },
   UserDetails: {
     screen: UserDetailsScreen
+  },
+  MyTabs: {
+    screen: MyTabsScreen
   }
 },
   {
